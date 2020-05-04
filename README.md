@@ -1,4 +1,4 @@
-# Topic-Modeling-Trip-Advisers-Review
+# Topic-Modeling-Trip-Adviser-Review
 
 * In this project we have decided to randomly collect reviews on Trip adviser website from Hotels 3 stars and Up. 
 We wanted to know the main topics that are being discussed so that we can share the information to upper management 
