@@ -14,9 +14,7 @@ BOT_NAME = 'Example'
 SPIDER_MODULES = ['Example.spiders']
 NEWSPIDER_MODULE = 'Example.spiders'
 
-
 ITEM_PIPELINES = {'Example.pipelines.MongoPipeline':300}
-
 
 DOWNLOAD_DELAY = 3
 
