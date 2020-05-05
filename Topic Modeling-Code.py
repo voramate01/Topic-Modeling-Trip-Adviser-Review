@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Dec  3 15:49:52 2018
 
-@author: Niravit Pasharawipas
-"""
 from __future__ import print_function
 from time import time
 
