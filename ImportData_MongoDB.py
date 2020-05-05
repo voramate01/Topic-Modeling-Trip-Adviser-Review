@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Dec  7 16:12:37 2018
 
-@author: Niravit Pasharawipas
-"""
 
 #import the data
 #import pymongo
