@@ -9,13 +9,8 @@
 class ExamplePipeline(object):
     def process_item(self, item, spider):
         return item
-
-
-###########################################
+    
 import pymongo
-
-
-
 class MongoPipeline(object):
 
     collection_name = 'REVIEW'
@@ -43,21 +38,3 @@ class MongoPipeline(object):
         return item
 
 
-#class MongoDBPipeline(object):
-
- #   def __init__(self):
-  #      connection = pymongo.MongoClient(
-   #         settings['MONGODB_SERVER'],
-    #        settings['MONGODB_PORT']
-     #   )
-      #  db = connection[settings['MONGODB_DB']]
-       # self.collection = db[settings['MONGODB_COLLECTION']]
-
- #   def process_item(self, item, spider):
-  #      for data in item:
-   #         if not data:
-    #            raise DropItem("Missing data!")
-     #   self.collection.update({'url': item['url']}, dict(item), upsert=True)
-      #  log.msg("Reviews added to MongoDB database!",
-       #         level=log.DEBUG, spider=spider)
-        #return item
